@@ -137,6 +137,9 @@ public class MainActivity extends BaseActivity
             }
             return true;
         }
+        else if(id == R.id.settings){
+            Toast.makeText(this, "settings", Toast.LENGTH_SHORT).show();
+        }
 
         return super.onOptionsItemSelected(item);
     }

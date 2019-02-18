@@ -14,5 +14,9 @@
         android:orderInCategory="99"
         android:visible="false"/>
 
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings" />
+
 </menu>
 
